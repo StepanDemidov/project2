@@ -10,10 +10,13 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.3/materia/bootstrap.min.css" rel="stylesheet" integrity="sha384-5bFGNjwF8onKXzNbIcKR8ABhxicw+SC1sjTh6vhSbIbtVgUuVTm2qBZ4AaHc7Xr9" crossorigin="anonymous">
+<link rel='stylesheet' href='project2.css'>
 </head>
 <body>
+  <header class='header'>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">Navbar</a>
+                <a class="navbar-brand" href="#">Лицейская Премьер Лига</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -21,7 +24,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                      <a class="nav-link" href="#">Главная <span class="sr-only">(current)</span></a>
+                      <a class="nav-link" href="project.html">Главная <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="#">Расписание</a>
@@ -31,21 +34,59 @@
                         Команды
                       </a>
                       <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                        <a class="dropdown-item" href="DGUnited.html">ДГ Юнайтед</a>
+                        <a class="dropdown-item" href="DGCity.html">ДГ Сити</a>
+                        <a class="dropdown-item" href="Georest.html">Георест</a>
+                        <a class="dropdown-item" href="Flex.html">Flex</a>
+                        <a class="dropdown-item" href="#">Динамо</a>
+                        <a class="dropdown-item" href="ROKI.html">РОКИ</a>
+                        <a class="dropdown-item" href="#">Рассвет кабанов</a>
                       </div>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link disabled" href="#">Таблица</a>
+                      <a class="nav-link disabled" href="table.html">Таблица</a>
                     </li>
                   </ul>
-                  <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                  </form>
+                  
                 </div>
               </nav>
+    </header>
+    <main class='main'>
+      <div class='container'>
+      <h1 class='site-title'>Лицейская Премьер Лига</h1>
+      <p class='main-text'>Приветствую вас на офицальном сайте Лицейской Премьер Лиге. Здесь вы сможете найти расписание матчей, таблицу и новости.</p>
+      
+      <div class='row'>
+      
+        <div class ='card col-lg-4'>
+        <img src='img/1.jpg' class='card-img-top'>
+        <div class='card-body'>
+           <h2 class='card-title'>Окончание записи команд на турнир 21.12.2018</h4>
+           <p class='card-text'>Регламент записи оманды</p>
+           <ul>
+             <li>Название команды.</li>
+             <li>Имена игроков с номерами их наборов.</li>
+           </ul>
+         </div>
+      </div>
+      <div class ='card col-lg-4'>
+        <img src='img/1.jpg' class='card-img-top'>
+        <div class='card-body'>
+           <h2 class='card-title'>Регламент провождения турнира</h4>
+           <p class='card-text'>Регламент турнира</p>
+           <ul>
+             <li>Каждый матч делится на 2 тайма по 10 минут.</li>
+             <li>Количество игроков каждой команды на поле - 3 полевых игрока и 1 вратарь.</li>
+             <li>Количество игроков в заявке 5-7.</li>
+             <li>Количество игроков одного набора в заявке каждой команды не больше 4.</li>
+             <li>В одной команде на поле одновременно должно находиться не более трёх игроков одного набора.</li>
+             <li>В заявке команды должен быть отмечен капитан команды.</li>
+           </ul>
+         </div>
+        </div>
+       </div>
+      </div>
+    </main >
+              
 </body>
 </html>
