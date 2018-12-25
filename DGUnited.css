@@ -7,3 +7,6 @@
     display: flex;
     justify-content: space-around;
 }
+.card-img-top{
+    padding: 20px;
+}
