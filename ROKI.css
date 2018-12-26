@@ -6,13 +6,10 @@
 .row{
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
-    width: 100%;
-    margin: 0 auto;
 }
 .card-img-top{
     padding: 20px;
 }
-.card:hover{
-    transform:scale(1.05)
+.card:hover{  
+transform:scale(1.05)
 }
