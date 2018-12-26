@@ -11,4 +11,6 @@
 .main-text{
     font-size: 20px
 }
-
+.card-img-top{
+    padding: 20px;
+}
