@@ -10,6 +10,8 @@
 .card-img-top{
     padding: 20px;
 }
-.card:hover{  
-transform:scale(1.05)
-}
+.card:hover{
+    position: relative;
+    transform: scale(1.05);
+    z-index: 2;
+} 
