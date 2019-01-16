@@ -1,11 +1,10 @@
-.main{
-    padding-top: 20px;
-    margin: 20px
-}
 .icon{
     margin-left: 800px;
-}
-.footer{
+}.footer{
     padding-top: 20px;
     margin-left: 100px;
+}
+.first{
+    justify-content: center;
+    padding-left: 500px;
 }

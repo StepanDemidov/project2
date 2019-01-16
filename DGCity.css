@@ -15,3 +15,12 @@
     transform: scale(1.05);
     z-index: 2;
 }  
+.icon{
+    margin-left: 800px;
+}
+.site-title{
+    display: inline-block;
+}.footer{
+    padding-top: 20px;
+    margin-left: 100px;
+}
